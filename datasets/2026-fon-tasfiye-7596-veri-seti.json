@@ -1,0 +1,138 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "2026 Türkiye Yatırım Fonu Krizi: 7596 Sayılı Kanun Tasfiye Rejimi, MKK FIFO ve PBLK Hukuki Veri Seti",
+  "description": "17 Eylül 2026 tarihli SPK (2026/61) kararıyla tasfiyeye alınan 7 Portföy Yönetim Şirketi bünyesindeki 131 yatırım fonu, 27 Ekim 2026 tarihli ve 7596 sayılı Kanun olağanüstü tasfiye kuralları, MKK FIFO net yatırım algoritması, PBLK takas kesinliği uyuşmazlıkları ve hak düşürücü dava süreleri veri seti.",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "creator": {
+    "@type": "Person",
+    "name": "Av. Murat Can Koptay",
+    "affiliation": "Koptay Hukuk Bürosu (Ankara Barosu)",
+    "url": "https://koptay.av.tr"
+  },
+  "primarySource": "https://koptay.av.tr/yayinlar/7596-sayili-kanun-yatirim-fonu-tasfiye-rejimi-pblk-ve-tazminat-sorumlulugu-2026.pdf",
+  "documentationUrls": [
+    "https://koptay.av.tr/makale/yatirim-fonu-krizi-magdurlari-pblk-7596-sayili-kanun-tasfiye-ve-tazminat-davasi-rehberi-2026",
+    "https://koptay.av.tr/makale/mkk-pblk-nedir-fon-satis-talimati-muaccel-alacak-ve-iptal-davasi",
+    "https://koptay.av.tr/makale/7596-sayili-fon-tasfiye-kanunu-fifo-net-yatirim-tutari-ve-1-milyon-tl-ara-odeme-itirazi",
+    "https://koptay.av.tr/makale/serbest-fon-magdurlari-nitelikli-yatirimci-beyani-banka-ve-spk-tazminat-davasi",
+    "https://koptay.av.tr/hesaplama-araclari/yatirim-fonu-krizi-tasfiye-ve-zarar-tazminati-hesaplama"
+  ],
+  "keyParameters": {
+    "spkSuspensionDecision": {
+      "date": "2026-09-17",
+      "bulletinNo": "2026/61",
+      "suspendedFundsCount": 131,
+      "assetManagementCompaniesCount": 7
+    },
+    "extraordinaryLiquidationLaw": {
+      "lawNo": 7596,
+      "officialGazetteDate": "2026-10-27",
+      "officialGazetteNo": 33413,
+      "spkPrincipleDecision": "76/1903"
+    },
+    "interimPaymentCapTRY": 1000000,
+    "ytmCompensationCap2026TRY": 2065145,
+    "qualifiedInvestorThresholdOct2026TRY": 50000000,
+    "criticalDeadlines": [
+      {
+        "event": "SPK 17.09.2026 (2026/61) Tasfiye Kararı İptal Davası Son Günü",
+        "date": "2026-11-16",
+        "statute": "2577 s. İYUK m. 7"
+      },
+      {
+        "event": "7596 s.K. Uygulama İşlemleri, FIFO ve PBLK İptal Davası (AYM m. 152 İtirazlı) Son Günü",
+        "date": "2026-12-26",
+        "statute": "2577 s. İYUK m. 7 & Anayasa m. 152"
+      }
+    ]
+  },
+  "assetManagementCompanies": [
+    {
+      "rank": 1,
+      "name": "Pardus Portföy Yönetimi A.Ş.",
+      "liquidatedFunds": 42,
+      "coordinatorBank": "T.C. Ziraat Bankası A.Ş.",
+      "sampleCodes": [
+        "AC4",
+        "BST",
+        "BRT",
+        "KHA",
+        "PYR",
+        "PMP"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "Hedef Portföy Yönetimi A.Ş.",
+      "liquidatedFunds": 31,
+      "coordinatorBank": "T.C. Ziraat Bankası A.Ş.",
+      "sampleCodes": [
+        "HYV",
+        "HGH",
+        "NNF",
+        "HKH"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "Atlas Portföy Yönetimi A.Ş.",
+      "liquidatedFunds": 16,
+      "coordinatorBank": "T.C. Ziraat Bankası A.Ş.",
+      "sampleCodes": [
+        "PSE",
+        "PPT",
+        "DFI",
+        "SNY"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "Bulls Portföy Yönetimi A.Ş.",
+      "liquidatedFunds": 15,
+      "coordinatorBank": "T.C. Ziraat Bankası A.Ş.",
+      "sampleCodes": [
+        "Bulls Para Piyasası",
+        "Bulls 1-6 Serbest"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "Pusula Portföy Yönetimi A.Ş.",
+      "liquidatedFunds": 12,
+      "coordinatorBank": "T.C. Ziraat Bankası A.Ş.",
+      "sampleCodes": [
+        "PRY",
+        "PNU",
+        "PBH",
+        "PBR"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "A1 Capital Portföy Yönetimi A.Ş.",
+      "liquidatedFunds": 9,
+      "coordinatorBank": "T.C. Ziraat Bankası A.Ş.",
+      "sampleCodes": [
+        "PAB",
+        "P1A",
+        "CAH",
+        "AJ1"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "Tera Portföy Yönetimi A.Ş.",
+      "liquidatedFunds": 6,
+      "coordinatorBank": "Türkiye İş Bankası A.Ş.",
+      "sampleCodes": [
+        "TLY",
+        "TP2",
+        "THF",
+        "DOH",
+        "T3B",
+        "TMV"
+      ]
+    }
+  ]
+}

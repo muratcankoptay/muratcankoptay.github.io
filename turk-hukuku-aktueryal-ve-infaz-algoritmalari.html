@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Türk Hukukunda Aktüeryal Tazminat (TRH-2010, Balthazard), Ceza İnfaz ve Kamulaştırma Algoritmaları | Av. Murat Can Koptay</title>
+  <meta name="description" content="TRH-2010 mortalite tablosu, Balthazard maluliyet formülü, 5275 sayılı Ceza İnfaz Kanunu koşullu salıverilme oranları, 6772 sayılı Kanun ilave tediye ve 2942 sayılı Kamulaştırma Kanunu hesaplama modelleri." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://muratcankoptay.github.io/turk-hukuku-aktueryal-ve-infaz-algoritmalari.html" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <div>
+        <a class="brand-title" href="/">Açık Erişim Hukuk &amp; Sermaye Piyasası Araştırmaları Arşivi</a>
+        <span class="brand-sub">Aktüeryal Hukuk, İş Hukuku ve Ceza İnfaz Matematiği Spesifikasyonları</span>
+      </div>
+      <nav class="nav-links">
+        <a href="/">Ana Arşiv</a>
+        <a href="/fon-krizi-7596-sayili-kanun-analizi.html">7596 s.K. &amp; Fon Krizi</a>
+        <a href="/turk-hukuku-aktueryal-ve-infaz-algoritmalari.html">Aktüeryal &amp; İnfaz Modelleri</a>
+        <a href="https://koptay.av.tr">Koptay Hukuk Portalı ↗</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <article class="paper-card">
+      <span class="badge">Computational Law Specifications</span>
+      <h1>Türk Hukukunda Aktüeryal Tazminat, Balthazard Engel Oranı, Ceza İnfaz ve Kamulaştırma Hesaplama Modelleri</h1>
+      <div class="meta-line">Yazar: <strong>Av. Murat Can Koptay</strong> • Referans Uygulama Merkezi: <a href="https://koptay.av.tr/hesaplama-araclari">Koptay Hukuk Hesaplama Araçları</a></div>
+
+      <h2>1. Balthazard Çoklu Maluliyet Birleştirme ve TRH-2010 Aktüeryal Rant Modeli</h2>
+      <p>
+        20 Şubat 2019 tarihli <em>Erişkinler İçin Engellilik Değerlendirmesi Hakkında Yönetmelik</em> (Ek-2 Cetveli) uyarınca birden fazla anatomik veya fonksiyonel arazın birleştirilmesinde aritmetik toplama değil, <strong>Balthazard Formülü</strong> uygulanır: en yüksek engel oranı <em>A</em> ve ikinci engel oranı <em>B</em> olmak üzere birleşik oran <code>M = A + ((100 - A) * B / 100)</code> denklemiyle hesaplanır; 60 yaş üstü bireylerde sonuca Balthazard yöntemiyle %10 yaş ilavesi eklenir. Aktif ve pasif dönem bedensel zarar hesaplamalarında ise Yargıtay 4. Hukuk Dairesi ve Sigorta Tahkim Komisyonu içtihatları doğrultusunda <strong>TRH-2010 Ulusal Mortalite Tablosu</strong> esas alınır.
+      </p>
+      <ul>
+        <li><strong>Canlı Hesaplama Motorları:</strong> <a href="https://koptay.av.tr/hesaplama-araclari/trafik-kazasi-maluliyet-hesaplama">Trafik ve İş Kazası Maluliyet (Balthazard) Hesaplama</a> | <a href="https://koptay.av.tr/hesaplama-araclari/trafik-kazasi-tazminati">TRH-2010 Trafik Kazası Tazminatı Hesaplama</a> | <a href="https://koptay.av.tr/hesaplama-araclari/arac-deger-kaybi">Araç Değer Kaybı Hesaplama</a></li>
+        <li><strong>Mevzuat Şerhleri:</strong> <a href="https://koptay.av.tr/makale/ktk-trafik-kusur-maddeleri-ve-kusur-oranlari-tablosu-46-2-g-52-1-a-56-1-c">KTK Trafik Kusur Maddeleri Tablosu</a> | <a href="https://koptay.av.tr/makale/trafik-kazasi-bedeni-hasar-ve-maluliyet-tazminati-rehberi-2026">Trafik Kazası Bedeni Hasar ve Maluliyet Rehberi</a></li>
+      </ul>
+
+      <h2>2. 5275 Sayılı Ceza İnfaz Kanunu Koşullu Salıverilme ve Denetimli Serbestlik Matematiği</h2>
+      <p>
+        5275 sayılı Kanun m. 107 ve m. 105/A kapsamında hükümlünün cezaevinde fiilen geçireceği süre (yatar hesabı); suç tarihinin 30.03.2020 öncesi veya sonrası olmasına, suçun katalog suç (TCK m. 102, m. 103, m. 188, TMK) kapsamında bulunup bulunmamasına (<code>1/2</code>, <code>2/3</code> veya <code>3/4</code> oranları) ve TCK m. 58 tekerrür rejimine göre farklılaşmaktadır.
+      </p>
+      <ul>
+        <li><strong>Canlı Hesaplama Motoru:</strong> <a href="https://koptay.av.tr/hesaplama-araclari/infaz-yatar">Ceza İnfaz (Yatar) ve Müddetname Hesaplama Motoru</a></li>
+        <li><strong>Tam Metin Monografi (PDF):</strong> <a href="https://koptay.av.tr/yayinlar/ceza-infaz-rejimi-ve-denetimli-serbestlik-2026.pdf">5275 Sayılı Kanun Ceza İnfaz Rejimi Monografisi</a></li>
+      </ul>
+
+      <h2>3. 6772 Sayılı Kanun Kamu İşçisi İlave Tediye ve İşçilik Alacakları Modeli</h2>
+      <p>
+        4/D statüsündeki sürekli kamu işçilerine 6772 sayılı Kanun uyarınca yılda 52 gün (4&times;13 gün) üzerinden ödenen ilave tediyeler; %14 SGK primi, %1 işsizlik sigortası primi, kümülatif gelir vergisi dilimi (%15–%35) ve binde 7,59 damga vergisi düşüldükten sonra netleştirilir; ayrıca 1475 s.K. m. 14 kapsamında giydirilmiş brüt ücrete eklenerek kıdem tazminatını doğrudan artırır.
+      </p>
+      <ul>
+        <li><strong>Canlı Hesaplama Motorları:</strong> <a href="https://koptay.av.tr/hesaplama-araclari/ilave-tediye">Kamu İşçisi İlave Tediye Hesaplama</a> | <a href="https://koptay.av.tr/ilave-tediye-odeme-tarihleri">2026 İlave Tediye Ödeme Tarihleri</a> | <a href="https://koptay.av.tr/hesaplama-araclari/iscilik-alacaklari">Kıdem, İhbar ve Fazla Mesai Hesaplama</a></li>
+      </ul>
+
+      <h2>4. 2942 Sayılı Kamulaştırma Kanunu m. 10–27 ve TMK m. 698–699 İzale-i Şüyu Modelleri</h2>
+      <p>
+        Tarım arazilerinde net zirai gelir kapitalizasyonu, arsalarda emsal satış karşılaştırması ve acele kamulaştırma (m. 27) süreçleri ile paylı mülkiyette elektronik açık artırma harç/paylaşım denklemleri açık erişimli olarak modellenmiştir:
+      </p>
+      <ul>
+        <li><strong>Kamulaştırma &amp; Eşya Hukuku Araçları:</strong> <a href="https://koptay.av.tr/kamulastirma-haritasi">Türkiye 81 İl Kamulaştırma İlanları Haritası</a> | <a href="https://koptay.av.tr/hesaplama-araclari/kamulastirma-bedeli-ve-faiz-hesaplama">Kamulaştırma Bedeli ve Faiz Hesaplama</a> | <a href="https://koptay.av.tr/hesaplama-araclari/izale-i-suyu-satis-ve-paylasim-hesaplama">İzale-i Şüyu Satış ve Paylaşım Hesaplama</a></li>
+        <li><strong>Mevzuat Şerhi:</strong> <a href="https://koptay.av.tr/makale/2942-sayili-kamulastirma-kanunu-7-10-31-b-maddesi-serhi-ve-acele-kamulastirma">2942 Sayılı Kamulaştırma Kanunu m. 7, 10, 27 ve 31/b Şerhi</a></li>
+      </ul>
+    </article>
+  </main>
+
+  <footer>
+    <div class="container">
+      <strong>Av. Murat Can Koptay — Koptay Hukuk Bürosu</strong> • <a href="https://koptay.av.tr">https://koptay.av.tr</a> • <a href="/">Ana Arşive Dön</a>
+    </div>
+  </footer>
+</body>
+</html>
