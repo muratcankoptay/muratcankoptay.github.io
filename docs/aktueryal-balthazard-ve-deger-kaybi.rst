@@ -30,6 +30,6 @@ Canlı Aktüeryal Hesaplama Araçları ve Uygulama Rehberleri
 
 TRH-2010 bakiye ömür tabloları, kusur dağılımı ve asgari ücret emsal katsayılarıyla entegre çalışan etkileşimli hesaplama modülleri aşağıda yer almaktadır:
 
-* `Trafik Kazası Maluliyet ve Tazminat Hesaplama Aracı <https://koptay.av.tr/hesaplama-araclari/trafik-kazasi-maluliyet-hesaplama>`_
-* `İş Kazası Sürekli İş Göremezlik ve Tazminat Hesaplama Aracı <https://koptay.av.tr/hesaplama-araclari/is-kazasi-maluliyet-hesaplama>`_
+* `Trafik Kazası Balthazard Maluliyet ve Tazminat Hesaplama Aracı <https://koptay.av.tr/hesaplama-araclari/trafik-kazasi-maluliyet-hesaplama>`_
+* `Trafik Kazası Bedensel Zarar Tazminatları ve Ek-2 Maluliyet Cetveli (PDF Monografi) <https://koptay.av.tr/yayinlar/trafik-kazasi-bedensel-zarar-ve-maluliyet-2026.pdf>`_
 * `Pert (Tam Hasarlı) Araçlarda Değer Kaybı ve İkame Araç Mahrumiyet Tazminatı Rehberi <https://koptay.av.tr/makale/pert-araclarda-deger-kaybi-mahrumiyet>`_

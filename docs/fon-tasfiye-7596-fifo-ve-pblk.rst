@@ -19,9 +19,11 @@ PBLK (TEFAS İşlem Blokajı) ve Takas Kesinliği Sorunu
 
 Konuya ilişkin ayrıntılı normatif analiz ve dava stratejileri şu birincil kaynaklarda incelenmiştir:
 
-* `7596 Sayılı Kanun Kapsamında Yatırım Fonları Tasfiye Analizi ve Yatırımcı Hakları <https://koptay.av.tr/makale/7596-sayili-kanun-yatirim-fonlari-tasfiye-analizi>`_
-* `TEFAS Fon Blokajı (PBLK) Nedir? Takas Kesinliği ve Hukuki Çözüm Yolları <https://koptay.av.tr/makale/tefas-fon-blokaj-pblk-nedir-hukuki-cozum>`_
-* `Yatırım Fonu Zararı Tazminat Davası, Portföy Yönetim Şirketi ve SPK Sorumluluğu <https://koptay.av.tr/makale/yatirim-fonu-zarari-tazminat-davasi-spk-sorumluluk>`_
+* `2026 Yatırım Fonu Krizi Mağdurları: 7596 Sayılı Kanun, PBLK ve Tazminat Davası Rehberi <https://koptay.av.tr/makale/yatirim-fonu-krizi-magdurlari-pblk-7596-sayili-kanun-tasfiye-ve-tazminat-davasi-rehberi-2026>`_
+* `MKK PBLK Blokajı Nedir? Valörü Dolmuş Fon Satış Talimatlarında Muaccel Alacak ve İptal Davası <https://koptay.av.tr/makale/mkk-pblk-nedir-fon-satis-talimati-muaccel-alacak-ve-iptal-davasi>`_
+* `7596 Sayılı Fon Tasfiye Kanunu: MKK FIFO Net Yatırım Tutarı ve 1 Milyon TL Ara Ödeme İtirazı <https://koptay.av.tr/makale/7596-sayili-fon-tasfiye-kanunu-fifo-net-yatirim-tutari-ve-1-milyon-tl-ara-odeme-itirazi>`_
+* `Serbest Fon Mağdurları: Nitelikli Yatırımcı Beyanı, Banka, Saklayıcı ve SPK Tazminat Davası <https://koptay.av.tr/makale/serbest-fon-magdurlari-nitelikli-yatirimci-beyani-banka-ve-spk-tazminat-davasi>`_
+* `7596 FIFO ve Yatırım Fonu Zarar Tazminatı Canlı Hesaplama Aracı <https://koptay.av.tr/hesaplama-araclari/yatirim-fonu-krizi-tasfiye-ve-zarar-tazminati-hesaplama>`_
 * `Tam Metin Akademik Monografi (PDF — 14 Sayfa, 42 Dipnot) <https://koptay.av.tr/yayinlar/7596-sayili-kanun-yatirim-fonu-tasfiye-rejimi-pblk-ve-tazminat-sorumlulugu-2026.pdf>`_
 
 JavaScript / TypeScript API Kullanımı

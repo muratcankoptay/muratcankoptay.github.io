@@ -44,7 +44,9 @@ Ortaklığın Giderilmesi (İzale-i Şüyu) ve Cebri Artırma Alt Sınırı
 İlgili Canlı Hesaplama Araçları ve Akademik Yayınlar
 ----------------------------------------------------
 
-* `Ceza İnfaz ve Yatar Süresi Hesaplama Aracı <https://koptay.av.tr/hesaplama-araclari/infaz-hesaplama>`_
-* `6772 Sayılı Kanun Kamu İşçisi İlave Tediye Hesaplama Aracı <https://koptay.av.tr/hesaplama-araclari/ilave-tediye-hesaplama>`_
+* `Ceza İnfaz ve Yatar Süresi Hesaplama Aracı <https://koptay.av.tr/hesaplama-araclari/infaz-yatar>`_
+* `6772 Sayılı Kanun Kamu İşçisi İlave Tediye Hesaplama Aracı <https://koptay.av.tr/hesaplama-araclari/ilave-tediye>`_
+* `İzale-i Şüyu (Ortaklığın Giderilmesi) Satış ve Paylaşım Hesaplama Aracı <https://koptay.av.tr/hesaplama-araclari/izale-i-suyu-satis-ve-paylasim-hesaplama>`_
+* `Türkiye 81 İl Kamulaştırma ve Bedel Tespiti Haritası <https://koptay.av.tr/kamulastirma-haritasi>`_
 * `4721 Sayılı TMK m. 698–699 Uyarınca Ortaklığın Giderilmesi (İzale-i Şüyu) Davaları ve Cebri Artırma Usulü (PDF Monografi) <https://koptay.av.tr/yayinlar/ortakligin-giderilmesi-izale-i-suyu-2026.pdf>`_
 * `Koptay Hukuk Bürosu Resmi Web Sitesi <https://koptay.av.tr/>`_
