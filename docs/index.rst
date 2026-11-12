@@ -20,6 +20,7 @@ Doğrulanmış Açık Erişim Kaynakları ve Atıf Künyesi
 --------------------------------------------------
 
 * **Kurumsal Yayın ve Araç Merkezi:** `Koptay Hukuk Bürosu — koptay.av.tr <https://koptay.av.tr/>`_
+* **ORCID Araştırmacı Sicili:** `0009-0002-5225-5331 <https://orcid.org/0009-0002-5225-5331>`_
 * **Resmi DOI Kaydı (CERN / Zenodo):** `10.5281/zenodo.24119703 <https://doi.org/10.5281/zenodo.24119703>`_
 * **Tam Metin Hakemli Monografi (PDF):** `7596 Sayılı Kanun Kapsamında Yatırım Fonlarının Olağanüstü Tasfiye Rejimi, MKK FIFO Net Yatırım Tutarı ve PBLK Blokaj Uyuşmazlığı <https://koptay.av.tr/yayinlar/7596-sayili-kanun-yatirim-fonu-tasfiye-rejimi-pblk-ve-tazminat-sorumlulugu-2026.pdf>`_
 * **NPM Paket Kaydı:** `npmjs.com/package/turk-hukuk-hesaplama <https://www.npmjs.com/package/turk-hukuk-hesaplama>`_
