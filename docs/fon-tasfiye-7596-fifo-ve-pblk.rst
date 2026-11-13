@@ -29,21 +29,18 @@ Konuya ilişkin ayrıntılı normatif analiz ve dava stratejileri şu birincil k
 JavaScript / TypeScript API Kullanımı
 -------------------------------------
 
-``calculateFifo7596`` fonksiyonu yatırımcının alım/satım hareketlerini FIFO sırasına göre eşleştirerek kalan pay adedini, endekslenmiş net yatırım tutarını ve 1.000.000 TL ara ödeme dilimini hesaplar:
+``calculateLaw7596Fifo`` fonksiyonu yatırımcının toplam nakit girişi, geçmiş kısmi satım çıkışı ve 17.09.2026 ekran / PBLK alacağını esas alarak net yatırım tutarını, 1.000.000 TL ara ödeme dilimini ve bakiye dava farkını hesaplar:
 
 .. code-block:: javascript
 
-   import { calculateFifo7596 } from "turk-hukuk-hesaplama";
+   import { calculateLaw7596Fifo } from "turk-hukuk-hesaplama";
 
-   const sonuc = calculateFifo7596(
-     [
-       { type: "BUY", shares: 10000, unitPrice: 42.5, indexFactor: 1.18 },
-       { type: "BUY", shares: 5000, unitPrice: 58.0, indexFactor: 1.06 },
-       { type: "SELL", shares: 4000, unitPrice: 61.2 }
-     ],
-     850000 // Mevcut dağıtılabilir nakit havuzu payı (TL)
-   );
+   const sonuc = calculateLaw7596Fifo({
+     totalCashIn: 3_500_000,
+     pastRedemptions: 500_000,
+     navOrPblkValue: 5_200_000
+   });
 
-   console.log(sonuc.remainingShares);        // 11000
-   console.log(sonuc.indexedNetPrincipalTL);  // Endekslenmiş net yatırım anaparası
-   console.log(sonuc.interimCapPaymentTL);    // Ara ödeme tutarı (maks. 1.000.000 TL)
+   console.log(sonuc.fifoNetPrincipal);     // 3000000
+   console.log(sonuc.interimPayment);       // 1000000
+   console.log(sonuc.totalLitigationClaim); // 4200000

@@ -6,35 +6,19 @@ Bu bölüm; ceza infaz hukukundaki koşullu salıverilme ve denetimli serbestlik
 5275 Sayılı Kanun Koşullu Salıverilme ve Denetimli Serbestlik
 -------------------------------------------------------------
 
-5275 sayılı Ceza ve Güvenlik Tedbirlerinin İnfazı Hakkında Kanun m. 107 ve m. 105/A hükümlerine göre genel suç tiplerinde 1/2, istisnai katalog suçlarda ise 2/3 veya 3/4 koşullu salıverilme oranı uygulanmakta; tutuklulukta geçen süreler (*TCK m. 63 mahsup*) doğrudan kapalı/açık kurum süresinden indirilmektedir:
-
-.. code-block:: javascript
-
-   import { calculateExecution5275 } from "turk-hukuk-hesaplama";
-
-   const infaz = calculateExecution5275({
-     totalDays: 1800,
-     ratio: 0.5,
-     probationDays: 365,
-     preTrialDays: 90
-   });
-   console.log(infaz.actualPrisonDays); // Fiili kurumda kalma süresi (gün)
+5275 sayılı Ceza ve Güvenlik Tedbirlerinin İnfazı Hakkında Kanun m. 107 ve m. 105/A hükümlerine göre genel suç tiplerinde 1/2, istisnai katalog suçlarda ise 2/3 veya 3/4 koşullu salıverilme oranı uygulanmakta; tutuklulukta geçen süreler (*TCK m. 63 mahsup*) doğrudan kapalı/açık kurum süresinden indirilmektedir. Tam etkileşimli müddetname hesaplaması için `Ceza İnfaz Hesaplama Aracı <https://koptay.av.tr/hesaplama-araclari/infaz-yatar>`_ sunulmaktadır.
 
 6772 Sayılı Kanun Kamu İşçisi İlave Tediye Bordrolaması
 -------------------------------------------------------
 
-Belediye şirketleri ve kamu kurumlarında sürekli işçi statüsünde çalışanların yılda 52 günlük (4x13 gün) ilave tediye alacağından SGK işçi primi (%14), işsizlik sigortası işçi payı (%1) ve kümülatif gelir vergisi dilimi düşülür; asgari ücret istisnası yürürlükteki damga ve gelir vergisi kurallarına göre uygulanır:
+Belediye şirketleri ve kamu kurumlarında sürekli işçi statüsünde çalışanların yılda 52 günlük (4x13 gün) ilave tediye alacağından SGK işçi primi (%14), işsizlik sigortası işçi payı (%1) ve kümülatif gelir vergisi dilimi ile binde 7,59 damga vergisi düşülür:
 
 .. code-block:: javascript
 
    import { calculateIlaveTediye6772 } from "turk-hukuk-hesaplama";
 
-   const tediye = calculateIlaveTediye6772({
-     grossDailyWageTL: 1450,
-     days: 13,
-     incomeTaxRate: 0.20
-   });
-   console.log(tediye.netPayableTL);
+   const tediye = calculateIlaveTediye6772(1450, 0.20, 13);
+   console.log(tediye.net); // 13 günlük net ilave tediye tutarı (TL)
 
 Ortaklığın Giderilmesi (İzale-i Şüyu) ve Cebri Artırma Alt Sınırı
 -----------------------------------------------------------------

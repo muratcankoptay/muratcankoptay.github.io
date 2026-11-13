@@ -22,8 +22,8 @@ Kod Örneği: ``calculateBalthazard``
    import { calculateBalthazard } from "turk-hukuk-hesaplama";
 
    // %30, %20 ve %10 oranlarında üç ayrı maluliyet bulgusu (yaş: 42)
-   const maluliyet = calculateBalthazard([30, 20, 10], { age: 42 });
-   console.log(maluliyet.combinedRate); // 49.6
+   const maluliyetOrani = calculateBalthazard([30, 20, 10], 42);
+   console.log(maluliyetOrani); // 49.6
 
 Canlı Aktüeryal Hesaplama Araçları ve Uygulama Rehberleri
 ---------------------------------------------------------
